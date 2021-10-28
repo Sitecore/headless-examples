@@ -7,10 +7,12 @@
 | **Author** | 
 
 ## Description
+---
 Demonstrates embedding a JSS React application within a non-JSS Sitecore site. Useful for sites where a full JS application is not desired, but smaller applications are still needed within a larger whole.
 
 ## Approach
-_A more detailed overview of the contents/architecture of the example, to help developers understand how it works._
+----------------------------------------------------------------
+The Embedded Wizard sample app was created based on community feedback about common use cases for JSS. You may not wish to build your entire site using JSS -- rather just particular tools, wizards, calculators, etc. which have complicated UX and/or are primarily frontend-driven.
 
 This is a technique to allow a JSS app to run within a traditional Sitecore rendering. Doing this allows embedding a JSS app within an existing Sitecore MVC site, as opposed to as its own standalone site. This technique essentially embeds the JSS app's markup and app wrapper tag within a Sitecore rendering.
 
@@ -24,23 +26,14 @@ Examples of such tools might be:
 - Financial calculators
 - Signup or other multi-step forms
 - E-commerce functionality (cart, checkout)
-- Characteristics of such apps include:
-
-They are embedded in an existing/larger site
-SEO is not typically crucial for the app itself
-UX is often a multi-step / sequential process
-Often have a complicated UX that benefits from modern JavaScript frameworks
-
-
-## Limitations / Considerations
-_Optional, note any scenarios in which the approach in this example may not meet developer requirements._
 
 ## How to run
+---
 **First** run `npm i` to install dependencies.
 
 **Second**, if you have not already, install the JSS CLI: `npm install -g @sitecore-jss/sitecore-jss-cli`. Then choose how to run the application:
 
-## Deploying to Sitecore
+### Deploying to Sitecore
 
 * Install the Headless server components on your local Sitecore installation according to the JSS documentation
 * `jss setup` to configure the connection to a local Sitecore installation
