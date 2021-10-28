@@ -7,9 +7,14 @@
 | **Author** | 
 
 ## Description
+---
 Demonstrates embedding a JSS React application within a non-JSS Sitecore site. Useful for sites where a full JS application is not desired, but smaller applications are still needed within a larger whole.
 
 ## Approach
+<<<<<<< HEAD
+=======
+----------------------------------------------------------------
+>>>>>>> cc7d66b852670a7478ddbc0545da0818ec3258bc
 The Embedded Wizard sample app was created based on community feedback about common use cases for JSS. You may not wish to build your entire site using JSS -- rather just particular tools, wizards, calculators, etc. which have complicated UX and/or are primarily frontend-driven.
 
 This is a technique to allow a JSS app to run within a traditional Sitecore rendering. Doing this allows embedding a JSS app within an existing Sitecore MVC site, as opposed to as its own standalone site. This technique essentially embeds the JSS app's markup and app wrapper tag within a Sitecore rendering.
@@ -26,6 +31,7 @@ Examples of such tools might be:
 - E-commerce functionality (cart, checkout)
 
 ## How to run
+---
 **First** run `npm i` to install dependencies.
 
 **Second**, if you have not already, install the JSS CLI: `npm install -g @sitecore-jss/sitecore-jss-cli`. Then choose how to run the application:
