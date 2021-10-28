@@ -1,4 +1,4 @@
-import { addComponent, CommonFieldTypes, SitecoreIcon } from '@sitecore-jss/sitecore-jss-dev-tools';
+import { addComponent, CommonFieldTypes, SitecoreIcon } from '@sitecore-jss/sitecore-jss-manifest';
 import fs from 'fs';
 
 const WizardQuery = fs.readFileSync(
