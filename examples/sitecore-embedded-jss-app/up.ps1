@@ -36,6 +36,44 @@ if (-not $status.status -eq "enabled") {
     Write-Error "Timeout waiting for Sitecore CM to become available via Traefik proxy. Check CM container logs."
 }
 
-Write-Host "Opening site..." -ForegroundColor Green
+Write-Host "Installing Sitecore CLI..." -ForegroundColor Green
+dotnet tool restore
 
+Write-Host "Logging into Sitecore..." -ForegroundColor Green
+dotnet sitecore login --cm https://cm.sitecore-embedded-jss-app.localhost/ --auth https://id.sitecore-embedded-jss-app.localhost/ --allow-write true
+if ($LASTEXITCODE -ne 0) {
+    Write-Error "Unable to log into Sitecore, did the Sitecore environment start correctly? See logs above."
+}
+
+Write-Host "Rebuilding indexes..." -ForegroundColor Green
+dotnet sitecore index schema-populate
+dotnet sitecore index rebuild
+
+Write-Host "Pushing serialized items to Sitecore..." -ForegroundColor Green
+dotnet sitecore ser push
+if ($LASTEXITCODE -ne 0) {
+    Write-Error "Serialization push failed, see errors above."
+}
+
+Write-Host "Deploying JSS application..." -ForegroundColor Green
+Push-Location src\rendering
+try {
+    npm install
+    jss deploy config
+    jss deploy app --includeContent --includeDictionary
+} finally {
+    Pop-Location
+}
+if ($LASTEXITCODE -ne 0) {
+    Write-Error "JSS deploy failed, see errors above."
+}
+
+Write-Host "Publishing items..." -ForegroundColor Green
+dotnet sitecore publish
+if ($LASTEXITCODE -ne 0) {
+    Write-Error "Item publish failed, see errors above."
+}
+
+Write-Host "Opening site..." -ForegroundColor Green
 Start-Process https://cm.sitecore-embedded-jss-app.localhost/sitecore/
+Start-Process https://cm.sitecore-embedded-jss-app.localhost/EmbeddedWizard/Wizard

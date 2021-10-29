@@ -65,8 +65,8 @@ services:
     environment:
       SITECORE_LICENSE_LOCATION: c:\license\license.xml
   
-  # Use our custom CD image with added modules and solution code.
-  # Folders are mounted below for code deployment and log output. See Dockerfile for details.
+  # Use our custom CD image with added modules.
+  # Folders are mounted below for log output. See Dockerfile for details.
   # Configure for a mounted license file instead of using SITECORE_LICENSE.
   cd:
     image: ${REGISTRY}${COMPOSE_PROJECT_NAME}-xm1-cd:${VERSION:-latest}
@@ -78,16 +78,12 @@ services:
         TOOLS_IMAGE: ${TOOLS_IMAGE}
         HEADLESS_SERVICES_IMAGE: ${HEADLESS_SERVICES_IMAGE}
     volumes:
-      - ${LOCAL_DEPLOY_PATH}:C:\deploy
       - ${LOCAL_DATA_PATH}\cd:C:\inetpub\wwwroot\App_Data\logs
       - ${HOST_LICENSE_FOLDER}:C:\license
     environment:
       SITECORE_LICENSE_LOCATION: C:\license\license.xml
-      ## Development Environment Optimizations
-      SITECORE_DEVELOPMENT_PATCHES: DevEnvOn,CustomErrorsOff,DebugOn,DiagnosticsOff,InitMessagesOff
-    entrypoint: powershell -Command "& C:\tools\entrypoints\iis\Development.ps1"
 
-  # Use our custom CM image with added modules and solution code.
+  # Use our custom CM image with added modules.
   # Folders are mounted below for code deployment and log output. See Dockerfile for details.
   # Configure for a mounted license file instead of using SITECORE_LICENSE.
   cm:
@@ -100,12 +96,14 @@ services:
         TOOLS_IMAGE: ${TOOLS_IMAGE}
         MANAGEMENT_SERVICES_IMAGE: ${MANAGEMENT_SERVICES_IMAGE}
         HEADLESS_SERVICES_IMAGE: ${HEADLESS_SERVICES_IMAGE}
+        NODEJS_VERSION: ${NODEJS_VERSION}
     volumes:
       - ${LOCAL_DEPLOY_PATH}:C:\deploy
       - ${LOCAL_DATA_PATH}\cm:C:\inetpub\wwwroot\App_Data\logs
       - ${HOST_LICENSE_FOLDER}:c:\license
     environment:
       SITECORE_LICENSE_LOCATION: c:\license\license.xml
+      JSS_DEPLOYMENT_SECRET: ${JSS_DEPLOYMENT_SECRET}
       ## Development Environment Optimizations
       SITECORE_DEVELOPMENT_PATCHES: DevEnvOn,CustomErrorsOff,DebugOn,DiagnosticsOff,InitMessagesOff
       Sitecore_AppSettings_exmEnabled:define: "no" # remove to turn on EXM

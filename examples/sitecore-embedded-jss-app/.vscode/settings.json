@@ -1,8 +1,19 @@
-// Place your settings in this file to overwrite default and user settings.
-{
-  "editor.tabSize": 2,
-  "javascript.validate.enable": false,
-  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
-  "editor.detectIndentation": false,
-  "vsicons.presets.angular": false
+﻿{
+  "files.associations": {
+    "*.sicpackage": "json"
+  },
+  "json.schemas": [
+    {
+      "fileMatch": ["/sitecore.json"],
+      "url": "./.sitecore/schemas/RootConfigurationFile.schema.json"
+    },
+    {
+      "fileMatch": ["/.sitecore/user.json"],
+      "url": "./.sitecore/schemas/UserConfiguration.schema.json"
+    },
+    {
+      "fileMatch": ["*.module.json"],
+      "url": "./.sitecore/schemas/ModuleFile.schema.json"
+    }
+  ]
 }
