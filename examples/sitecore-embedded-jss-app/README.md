@@ -114,9 +114,9 @@ docker-compose down
 - In your implementation, if you don't want to globally include the scripts and styles for your JSS app(s), you'll want to use some mechanism to include them dynamically based on presence of the rendering, such as the Assets module in Sitecore Habitat. This approach is described in the Helix design priciples.
 
 ### Wizard Steps
-- The sample uses the react-stepzilla module to provide a step-based UX.
+- The sample uses a step-based UX.
 - Each step is a separate JSS route to provide for easier management/editing via the Experience Editor.
-- The `Wizard` component "creatively" uses a `StepReference` component to allow steps to be managed via the Experience Editor, but then when rendering for the front-end, uses the component data to construct the step data expected by `react-stepzilla`.
+- The `Wizard` component "creatively" uses a `StepReference` component to allow steps to be managed via the Experience Editor, but then when rendering for the front-end, uses the component data to construct the step.
 - The `Step` component loads the referenced route from the Layout Service as each step is displayed.
   - This means that each step will register in analytics as it is displayed as well.
 - Step uses the same placeholder name as App, so that step contents can be rendered directly in the `App` as well (i.e. in the Experience Editor).

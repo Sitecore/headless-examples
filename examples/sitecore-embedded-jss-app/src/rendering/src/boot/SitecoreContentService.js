@@ -6,7 +6,7 @@ import { RestLayoutService } from '@sitecore-jss/sitecore-jss-react';
 class SitecoreContentService {
   constructor() {
     this.layoutService = new RestLayoutService({
-      apiHost: `${__SC_API_HOST__}`,
+      apiHost: __SC_API_HOST__,
       apiKey: __SC_API_KEY__,
       siteName: 'website', // the name of the site you're "embedding" into ('website' in the sample)
     });
