@@ -1,5 +1,5 @@
 {
-  "name": "jss-embedded-jss-app-sample",
+  "name": "sitecore-embedded-jss-app",
   "version": "19.0.0",
   "description": "Demonstrates embedding a JSS application within a traditional Sitecore page",
   "config": {
@@ -37,19 +37,6 @@
       "babel-plugin-inline-import"
     ]
   },
-  "author": {
-    "name": "Sitecore Corporation",
-    "url": "https://jss.sitecore.com"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sitecore/jss.git"
-  },
-  "bugs": {
-    "url": "https://github.com/sitecore/jss/issues"
-  },
-  "homepage": "https://jss.sitecore.com",
-  "license": "Apache-2.0",
   "dependencies": {
     "@sitecore-jss/sitecore-jss-react": "^19.0.0-canary.63",
     "babel-plugin-inline-import": "~2.0.6",
@@ -74,6 +61,7 @@
     "css-loader": "~3.2.0",
     "del": "~3.0.0",
     "eslint": "^7.4.0",
+    "eslint-config-prettier": "^6.15.0",
     "eslint-import-resolver-webpack": "~0.8.4",
     "eslint-plugin-import": "~2.8.0",
     "eslint-plugin-jsx-a11y": "~6.0.3",

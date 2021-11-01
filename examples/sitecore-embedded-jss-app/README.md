@@ -2,7 +2,7 @@
 
 | | |
 |--|--|
-| **Framework** | JavaScript Rendering SDK |
+| **Framework** | JavaScript Rendering SDK (React) |
 | **Sitecore Version** | 10.2 |
 | **Author** | Sitecore |
 
@@ -10,9 +10,7 @@
 Demonstrates embedding a JSS React application within a non-JSS Sitecore site. Useful for sites where a full JS application is not desired, but smaller applications are still needed within a larger whole.
 
 ## Approach
-This is a technique to allow a JSS app to run within a traditional Sitecore rendering. Doing this allows embedding a JSS app within an existing Sitecore MVC site, as opposed to as its own standalone site. This technique essentially embeds the JSS app's markup and app wrapper tag within a Sitecore rendering.
-
-Compared to the [JavaScript Rendering Type](https://jss.sitecore.com/docs/techniques/mvc-integration/javascript-rendering), client-side embedding does not render the JSS app on the server. This is an advantage in terms of simplicity (and Node.js is not required to be installed), but a disadvantage in terms of SEO compatibility and app startup time.
+This is a technique to allow a JSS app to run within a traditional Sitecore rendering. Doing this allows embedding a JSS app within an existing Sitecore MVC site, as opposed to as its own standalone site. This technique essentially embeds the JSS app's markup and app wrapper tag within a Sitecore rendering. The JSS app itself is rendered on the browser.
 
 Client-side embedding is a good technique to use for micro-applications and tools.
 

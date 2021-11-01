@@ -12,7 +12,7 @@ const ensureLeadingCharacter = (val, char = '/') => {
   return val.indexOf(char) > 0 ? `${char}${val}` : val;
 };
 
-export default function (manifest) {
+export default function(manifest) {
   // we are mocking the install path of the app since it's not the same as site root in this case
   return mergeFs('./data/routes/EmbeddedWizard/Wizard') // relative to process invocation (i.e. your package.json)
     .then((result) => convertToRoutes({ data: result, language: manifest.language }))
