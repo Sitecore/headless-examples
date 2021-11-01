@@ -1,5 +1,5 @@
 {
-    "namespace": "InitItems",
+    "namespace": "Example",
     "items" : {
         "includes": [
             {
@@ -7,6 +7,17 @@
                 "path": "/sitecore/content",
                 "scope": "singleItem",
                 "allowedPushOperations": "createAndUpdate"
+            },
+            {
+                "name": "home",
+                "path": "/sitecore/content/Home",
+                "scope": "singleItem",
+                "allowedPushOperations": "createAndUpdate"
+            },
+            {
+                "name": "sublayout",
+                "path": "/sitecore/layout/Sublayouts/EmbeddedWizard",
+                "scope": "itemAndDescendants"
             },
             {
                 "name": "api-key",

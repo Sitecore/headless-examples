@@ -61,6 +61,7 @@ try {
     npm install
     jss deploy config
     jss deploy app --includeContent --includeDictionary
+    jss deploy-rendering
 } finally {
     Pop-Location
 }
@@ -76,4 +77,4 @@ if ($LASTEXITCODE -ne 0) {
 
 Write-Host "Opening site..." -ForegroundColor Green
 Start-Process https://cm.sitecore-embedded-jss-app.localhost/sitecore/
-Start-Process https://cm.sitecore-embedded-jss-app.localhost/EmbeddedWizard/Wizard
+Start-Process https://cm.sitecore-embedded-jss-app.localhost
