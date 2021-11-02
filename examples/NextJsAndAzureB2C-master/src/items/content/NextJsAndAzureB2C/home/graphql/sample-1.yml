@@ -1,0 +1,43 @@
+﻿---
+ID: "7654892f-eaf0-500d-a5ae-3a898803ed5c"
+Parent: "f82479ee-567e-56e7-bb2f-2c006bd3120b"
+Template: "702adf2e-7d1f-5c8b-b8cd-307285a1014a"
+Path: "/sitecore/content/NextJsAndAzureB2C/home/graphql/sample-1"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{9157CC8C-5760-5114-9F2D-93CBE39B30DC}"
+              p:after="*[1=2]"
+              s:rname="ContentBlock"
+              s:ds="{3C5216FB-2509-5F87-B116-D8F4407ED398}"
+              s:id="{E95B6808-6390-5118-8EF4-429BC24E90F2}"
+              s:par=""
+              s:ph="/jss-main" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210525T185303Z
+    - ID: "342deb29-d8eb-591c-8f34-8ddaa84d030c"
+      Hint: pageTitle
+      Value: Sample 1 Page Title
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "21aebb46-8831-46ee-a050-9a60c6634b13"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JssImport
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210525T185303Z

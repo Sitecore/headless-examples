@@ -1,0 +1,30 @@
+﻿---
+ID: "ec7fc2b8-94a9-5c61-afd0-8c00d90d6573"
+Parent: "47b969a4-90c5-5715-bf6b-8dd5cb99f7ce"
+Template: "c0c9bd58-ed98-5f84-9320-dc9bed38c6e4"
+Path: /sitecore/content/NextJsAndAzureB2C/Content/Styleguide/ContentListField/Item1
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Styleguide Content List Item 1 (Shared)
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210525T185259Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b9c229ca-4d68-4460-959c-d5fd0f111739"
+    - ID: "b86d0cf4-7879-572d-86fc-099c0e23ccd4"
+      Hint: textField
+      Value: ContentList Demo (Shared) Item 1 Text Field
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JssImport
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210525T185300Z

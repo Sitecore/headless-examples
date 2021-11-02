@@ -1,0 +1,16 @@
+{
+    "namespace": "NextJsAndAzureB2C-Content",
+    "references": [ "NextJsAndAzureB2C" ],
+    "items": {
+        "includes": [
+            {
+                "name": "content",
+                "path": "/sitecore/content/NextJsAndAzureB2C"
+            },
+            {
+                "name": "media",
+                "path": "/sitecore/media library/nextjsandazurebc"
+            }
+        ]
+    }
+}

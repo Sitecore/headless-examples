@@ -1,0 +1,33 @@
+﻿---
+ID: "1c1125df-8100-511b-b5ea-e31184c8df4a"
+Parent: "789af1df-cf0b-5226-85fd-d3fad980e03c"
+Template: "7d00ff45-95b1-5246-b3a0-9cc83509a850"
+Path: "/sitecore/content/NextJsAndAzureB2C/home/styleguide/Page Components/styleguide-jss-styleguide-section-66AF8F03-0B52-5425-A6AF-6FB54F2D64D9-0-Styleguide-Multilingual-1"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Styleguide-Multilingual-1"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210525T185309Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "906d1d5c-feb3-4462-a8d2-3ccfe27f0319"
+    - ID: "a0101f5b-6cb9-5f5c-8c36-cf0f6895c176"
+      Hint: heading
+      Value: Translation Patterns
+    - ID: "b9e0be0d-56d1-50a0-a9bb-5202a3e0717f"
+      Hint: sample
+      Value: This text can be translated in en.yml
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JssImport
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210525T185309Z

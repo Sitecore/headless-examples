@@ -1,0 +1,34 @@
+﻿---
+ID: "40cd31d6-4d97-5405-a709-33298cb3765a"
+Parent: "a6543308-d461-5359-b173-31697358e021"
+Template: "6e05af28-bdbb-5a75-94f6-c12f8f950ef3"
+Path: "/sitecore/content/NextJsAndAzureB2C/home/graphql/Page Components/graphql-jss-graphql-layout-A9FBC7CC-F00B-58A2-873B-4C70C726476C-0-GraphQL-IntegratedDemo-1"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "GraphQL-IntegratedDemo-1"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210525T185302Z
+    - ID: "61eaf28b-b5c4-55de-a05f-bbd368316ff4"
+      Hint: sample2
+      Value: |
+        <link text="GraphQL lets you get structured field data too" target="_blank" url="https://www.sitecore.com" linktype="external" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f8d8967e-d0e9-4cd2-aa9f-7b53713e8a13"
+    - ID: "9a00166c-582d-53e1-81ce-120aa1536942"
+      Hint: sample1
+      Value: "Hello integrated GraphQL world!"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JssImport
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210525T185302Z
