@@ -1,0 +1,52 @@
+﻿---
+ID: "0463bf1a-4f64-5ffe-a8bf-031ab252e718"
+Parent: "789af1df-cf0b-5226-85fd-d3fad980e03c"
+Template: "229e4fb6-819d-5d0c-9235-c93ef8a17b4c"
+Path: "/sitecore/content/NextJsAndAzureB2C/home/styleguide/Page Components/styleguide-jss-styleguide-section-B7985C8DEA10AB2C5CC77ABC90CF4126F21840592E09B2C6DB07D84D314CDCE0D4"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Styleguide-FieldUsage-ContentList-11"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "10c22a54-2862-5ec0-8985-16e22736e8c1"
+      Hint: localContentList
+      Value: |
+        {248CD146-8C69-5907-9F10-60534DE1300C}
+        {0A5E1513-52E4-52C7-9565-986272D7896B}
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210525T185307Z
+    - ID: "38758952-48db-5dd9-89f1-10b4906b4600"
+      Hint: description
+      Value: |
+        <p>
+          <small>
+            Content Lists are a way to reference zero or more other content items.
+            Referenced items may be shared.
+            To reference a single content item, use an <em>Item Link</em> field.<br />
+            <strong>Note:</strong> Sitecore does not support inline editing of Content List fields. The value must be edited in Experience Editor by using the edit rendering fields button (looks like a pencil) with the whole component selected.
+          </small>
+        </p>
+        
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "a0c484e8-9527-46ff-890b-e251b12d6157"
+    - ID: "a0101f5b-6cb9-5f5c-8c36-cf0f6895c176"
+      Hint: heading
+      Value: Content List
+    - ID: "acb1b8ad-9b53-56c7-bae5-a572a3352968"
+      Hint: sharedContentList
+      Value: |
+        {EC7FC2B8-94A9-5C61-AFD0-8C00D90D6573}
+        {4ADFCA75-17BA-5453-A0F0-C2D830C325A1}
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JssImport
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210525T185308Z

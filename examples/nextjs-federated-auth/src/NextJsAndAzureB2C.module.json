@@ -1,0 +1,24 @@
+{
+    "namespace": "NextJsAndAzureB2C",
+    "references": [ "InitItems" ],
+    "items": {
+        "includes": [
+            {
+                "name": "layouts",
+                "path": "/sitecore/layout/Layouts/Project/nextjsandazurebc"
+            },
+            {
+                "name": "placeholders",
+                "path": "/sitecore/layout/Placeholder Settings/Project/nextjsandazurebc"
+            },
+            {
+                "name": "renderings",
+                "path": "/sitecore/layout/Renderings/Project/nextjsandazurebc"
+            },
+            {
+                "name": "templates",
+                "path": "/sitecore/templates/Project/nextjsandazurebc"
+            }
+        ]
+    }
+}

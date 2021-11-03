@@ -1,0 +1,31 @@
+﻿---
+ID: "a3e8aa3d-aec6-5dc6-83fe-c6c91b7e4d5b"
+Parent: "8f6c5877-7435-55a4-92a7-37398dde31bb"
+Template: "8f6c5877-7435-55a4-92a7-37398dde31bb"
+Path: "/sitecore/templates/Project/nextjsandazurebc/Styleguide-Explanatory-Component/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210525T185235Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\JssImport
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JssImport
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "7d3b7af0-fe98-4a0b-a43f-7be53ae0000d"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JssImport
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210525T185235Z

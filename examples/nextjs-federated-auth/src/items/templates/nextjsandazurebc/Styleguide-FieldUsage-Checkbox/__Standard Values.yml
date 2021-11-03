@@ -1,0 +1,31 @@
+﻿---
+ID: "1db21995-e415-5508-984f-bbb89e302787"
+Parent: "481b34a6-ff55-5e6d-9fdb-95c41ba596bd"
+Template: "481b34a6-ff55-5e6d-9fdb-95c41ba596bd"
+Path: "/sitecore/templates/Project/nextjsandazurebc/Styleguide-FieldUsage-Checkbox/__Standard Values"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210525T185236Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\JssImport
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JssImport
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ad10551c-5e80-4a7c-9e65-ce8633a8c1f8"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JssImport
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210525T185236Z

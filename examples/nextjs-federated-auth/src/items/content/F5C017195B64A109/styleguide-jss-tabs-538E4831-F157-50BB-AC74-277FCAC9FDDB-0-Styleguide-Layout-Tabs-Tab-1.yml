@@ -1,0 +1,33 @@
+﻿---
+ID: "7ac28d74-0943-55b4-837f-d2e78ba3886a"
+Parent: "789af1df-cf0b-5226-85fd-d3fad980e03c"
+Template: "155db67a-1837-5450-a87c-0c003f02828c"
+Path: "/sitecore/content/NextJsAndAzureB2C/home/styleguide/Page Components/styleguide-jss-tabs-538E4831-F157-50BB-AC74-277FCAC9FDDB-0-Styleguide-Layout-Tabs-Tab-1"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Styleguide-Layout-Tabs-Tab-1"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20210525T185308Z
+    - ID: "68ed86e0-662f-589c-aeec-362b9aee6070"
+      Hint: content
+      Value: "<p>Tab 1 contents!</p>"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "9910433a-90f5-4063-b3e9-1a126c74611f"
+    - ID: "90934be7-c7ac-511b-831e-7376d49071c0"
+      Hint: title
+      Value: Tab 1
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JssImport
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20210525T185308Z
