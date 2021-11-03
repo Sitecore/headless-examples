@@ -1,0 +1,220 @@
+﻿---
+ID: "110d559f-dea5-42ea-9c1c-8a5df7e70ef9"
+Parent: "0de95ae4-41ab-4d01-9eb0-67441b7c2450"
+Template: "76036f5e-cbce-46d1-af0a-4143f9b557aa"
+Path: /sitecore/content/Home
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Network/16x16/home.png
+- ID: "0c894aab-962b-4a84-b923-cb24b05e60d2"
+  Hint: __Ribbon
+  Value: 
+- ID: "1172f251-dad4-4efb-a329-0c63500e4f1e"
+  Hint: __Masters
+  Value: "{070650B4-67F6-4DDD-97E3-02ACC479E540}"
+- ID: "56c15c6d-fd5a-40ca-bb37-64ceec6a9bd5"
+  Hint: __Archive date
+  Value: 
+- ID: "6fd695e7-7f6d-4ca5-8b49-a829e5950ae9"
+  Hint: __Subitems Sorting
+  Value: 
+- ID: "74484bdf-7c86-463c-b49f-7b73b9afc965"
+  Hint: __Publishing groups
+  Value: 
+- ID: "83798d75-df25-4c28-9327-e8bac2b75292"
+  Hint: __Insert Rules
+  Value: 
+- ID: "86fe4f77-4d9a-4ec3-9ed9-263d03bd1965"
+  Hint: __Publish
+  Value: 
+- ID: "9135200a-5626-4dd8-ab9d-d665b8c11748"
+  Hint: __Never publish
+  Value: 
+- ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
+  Hint: __Read Only
+  Value: 
+- ID: "a0cb3965-8884-4c7a-8815-b6b2e5ced162"
+  Hint: __Editors
+  Value: 
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{A5BC37E7-ED96-4C1E-8590-A26E64DB55EA}"
+- ID: "a791f095-2521-4b4d-bef9-21dda221f608"
+  Hint: __Style
+  Value: 
+- ID: "b7e5b151-b145-4ced-85c5-fbdb566dfa4d"
+  Hint: __Validator Bar Validation Rules
+  Value: 
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: "-1"
+- ID: "c2f5b2b5-71c1-431e-bf7f-dbdc1e5a2f83"
+  Hint: __Quick Action Bar Validation Rules
+  Value: 
+- ID: "ca9b9f52-4fb0-4f87-a79f-24dea62cda65"
+  Hint: __Default workflow
+  Value: 
+- ID: "dec8d2d5-e3cf-48b6-a653-8e69e2716641"
+  Hint: __Security
+  Value: 
+- ID: "f1a1fe9e-a60c-4ddb-a3a0-bb5b29fe732e"
+  Hint: __Renderings
+  Value: |
+    <r xmlns:p="p" xmlns:s="s"
+      p:p="1">
+      <d
+        id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+        <r
+          uid="{B343725A-3A93-446E-A9C8-3A2CBD3DB489}"
+          s:id="{599CC693-5B59-463E-9060-CE6014D92DE7}" />
+      </d>
+    </r>
+Languages:
+- Language: da
+  Fields:
+  - ID: "577f1689-7de4-4ad2-a15f-7fdc1759285f"
+    Hint: __Long description
+    Value: Elementet Hjem er som standard startpunktet for en hjemmeside.
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: Velkommen til Sitecore.
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Hjem
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20140516T182531:635358615311709544"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "75577384-3c97-45da-a847-81b00500e250"
+      Hint: Title
+      Value: Sitecore
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "166b77ff-568d-4ed5-857f-6bfdbf5a5ecb"
+    - ID: "a60acd61-a6db-4182-8329-c957982cec74"
+      Hint: Text
+      Value: |
+        ><p style="line-height: 22px;">Fra en enkelt forbundet platform, der også integrerer med andre kundevendte platforme, til et enkelt billede af kunden i et stor data marketing repository, der helt eliminere meget af den kompleksitet, der tidligere har holdt marketingfolk tilbage, den nyeste version af Sitecore gør kundeoplevelsen meget nemt opnåeligt. Lær, hvordan den nyeste version af Sitecore giver marketingfolk det komplette overblik, integrerede værktøjer og automatiserings kapaciteter til at engagere kunder i hele den iterativ livscyklus - teknologi fundamentet der er absolut nødvendigt for at vinde kunder for livet.</p>
+        <p>For yderligere oplysninger, kan du gå til <a href="https://doc.sitecore.net/" target="_blank" title="Sitecore Documentation webstedet">Sitecore Documentation webstedet</a></p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20171002T184251Z
+- Language: "de-DE"
+  Fields:
+  - ID: "577f1689-7de4-4ad2-a15f-7fdc1759285f"
+    Hint: __Long description
+    Value: Das Home Item ist der vorgegebene Startpunkt einer Website.
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: Willkommen bei Sitecore
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: Home
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20140516T175833:635358599136286942"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "75577384-3c97-45da-a847-81b00500e250"
+      Hint: Title
+      Value: Sitecore Experience Plattform
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "b7d2d5dc-c979-4485-8fd8-c80496ae57c6"
+    - ID: "a60acd61-a6db-4182-8329-c957982cec74"
+      Hint: Text
+      Value: |
+        <p style="line-height: 22px;">Dank einer einzigen Plattform, die auch andere kundennahe Plattformen integriert, in Verbindung mit einer einheitlichen Ansicht des Kunden im Big Data Repository und einer fast vollständigen Beseitigung der Komplexität, die Vermarkter früher zurückgehalten hat, schafft es die neuste Version von Sitecore, das Kundenerlebnis tatsächlich erreichbar zu machen. Erfahren Sie mehr darüber, wie die neuste Version von Sitecore Vermarktern  vollständige Daten, integrierte Tools und Automatisierungsfähigkeiten zur Kundenbindung in einem durchgehend interaktiven Lebenszyklus liefert. Diese technische Basis ist für eine nachhaltige Kundengewinnung von größter Wichtigkeit.  </p>
+        <p>Weiterführende Informationen finden Sie auf der Dokumentationsseite von Sitecore: <a href="https://doc.sitecore.net/" target="_blank" title="Sitecore-Dokumentationsseite">Sitecore Documentation site</a></p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20171002T184555Z
+- Language: en
+  Fields:
+  - ID: "577f1689-7de4-4ad2-a15f-7fdc1759285f"
+    Hint: __Long description
+    Value: The Home item is the default starting point for a website.
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: Welcome to Sitecore.
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: 
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20080407T105900Z
+    - ID: "4c346442-e859-4efd-89b2-44aedf467d21"
+      Hint: __Valid to
+      Value: 
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "75577384-3c97-45da-a847-81b00500e250"
+      Hint: Title
+      Value: Sitecore Experience Platform
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "dad7aabd-e07b-49ae-90ca-83847871a7fe"
+    - ID: "a60acd61-a6db-4182-8329-c957982cec74"
+      Hint: Text
+      Value: |
+        <p style="line-height: 22px;">From a single connected platform that also integrates with other customer-facing platforms, to a single view of the customer in a big data marketing repository, to completely eliminating much of the complexity that has previously held marketers back, the latest version of Sitecore makes customer experience highly achievable. Learn how the latest version of Sitecore gives marketers the complete data, integrated tools, and automation capabilities to engage customers throughout an iterative lifecycle &ndash; the technology foundation absolutely necessary to win customers for life.</p>
+        <p>For further information, please go to the <a href="https://doc.sitecore.net/" target="_blank" title="Sitecore Documentation site">Sitecore Documentation site</a></p>
+    - ID: "c8f93afe-bfd4-4e8f-9c61-152559854661"
+      Hint: __Valid from
+      Value: 
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20171114T230411Z
+- Language: "ja-JP"
+  Fields:
+  - ID: "577f1689-7de4-4ad2-a15f-7fdc1759285f"
+    Hint: __Long description
+    Value: ホーム アイテムは Web サイトのデフォルトの開始場所です
+  - ID: "9541e67d-ce8c-4225-803d-33f7f29f09ef"
+    Hint: __Short description
+    Value: Sitecore へようこそ
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: ホーム
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: "20140516T185403:635358632434514719"
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\admin
+    - ID: "75577384-3c97-45da-a847-81b00500e250"
+      Hint: Title
+      Value: サイトコア エクスペリエンス プラットフォームへようこそ
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "e7a4a0b3-cb70-4fc1-8671-9cf3897c7473"
+    - ID: "a60acd61-a6db-4182-8329-c957982cec74"
+      Hint: Text
+      Value: |
+        <p style="line-height: 22px;">サイトコアの最新バージョンでは、複数の消費者向けプラットフォームと統合する単一接続プラットフォームや、マーケティング レポジトリのビッグ データから顧客情報を一目で確認可能なビューを提供し、さらにこれまでマーケターの悩みの種であった多くの複雑性を完全に解消することによって、カスタマー エクスペリエンスの実現が高いレベルで可能になりました。
+        サイトコアの最新バージョンの完全なデータや統合ツール、そしてオートメーション機能を活用することで、反復型のライフ サイクルの中で消費者といかにエンゲージを構築し生涯顧客を獲得できるかを学んでください。生涯顧客を獲得するためにテクノロジーの基盤は不可欠です。</p>
+        <p>詳しくは <a href="https://doc.sitecore.net/" target="_blank" title="Sitecore Documentation site">Sitecore Documentation Site</a> をご参照ください。</p>
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20171002T184844Z

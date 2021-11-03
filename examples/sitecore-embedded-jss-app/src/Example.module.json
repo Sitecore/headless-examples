@@ -1,0 +1,29 @@
+{
+    "namespace": "Example",
+    "items" : {
+        "includes": [
+            {
+                "name": "content-root",
+                "path": "/sitecore/content",
+                "scope": "singleItem",
+                "allowedPushOperations": "createAndUpdate"
+            },
+            {
+                "name": "home",
+                "path": "/sitecore/content/Home",
+                "scope": "singleItem",
+                "allowedPushOperations": "createAndUpdate"
+            },
+            {
+                "name": "sublayout",
+                "path": "/sitecore/layout/Sublayouts/EmbeddedWizard",
+                "scope": "itemAndDescendants"
+            },
+            {
+                "name": "api-key",
+                "path": "/sitecore/system/Settings/Services/API Keys/sitecore-embedded-jss-app",
+                "scope": "singleItem"
+            }
+        ]
+    }
+}

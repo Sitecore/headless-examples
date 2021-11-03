@@ -1,0 +1,19 @@
+﻿---
+ID: "cc67eb19-bfd2-42ef-8e40-e41f226f5528"
+Parent: "eb443c0b-f923-409e-85f3-e7893c8c30c2"
+Template: "3baa73e5-6ba9-4462-bf72-c106f8801b11"
+Path: /sitecore/layout/Sublayouts/EmbeddedWizard
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171114T191910Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "4a3f5916-ff84-4cbd-b25a-cc6c403033e7"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20171114T191910Z

@@ -1,0 +1,23 @@
+﻿---
+ID: "599cc693-5b59-463e-9060-ce6014d92de7"
+Parent: "cc67eb19-bfd2-42ef-8e40-e41f226f5528"
+Template: "0a98e368-cdb9-4e1e-927c-8e0c24a003fb"
+Path: /sitecore/layout/Sublayouts/EmbeddedWizard/EmbeddedWizard
+SharedFields:
+- ID: "e42081b6-8a95-4a11-89ce-df70ed502f57"
+  Hint: Path
+  Value: /layouts/EmbeddedWizard.ascx
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20171113T212841Z
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "391d23ca-6433-4c80-a359-2ab45106cd3a"
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20171114T224041Z
