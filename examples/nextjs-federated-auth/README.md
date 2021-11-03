@@ -6,6 +6,8 @@
 | **Sitecore Version** | 10.1 |
 | **Author** | Sitecore |
 
+
+## Description
 This is a modifed version of the OOB starter template for NextJS which includes an example of how to use Azure B2C and next-auth together.
 
 You can clone this repo and run it, alternatively here is a log of the changes from standard and some steps on how to test the solution.
@@ -97,7 +99,7 @@ See Sitecore Containers documentation for more information on system requirement
 * An MSBuild project for deploying configuration and code into
   the Sitecore Content Management role. (see `src\platform`).
 
-## Running this Solution
+## How to run
 1. If your local IIS is listening on port 443, you'll need to stop it.
    > This requires an elevated PowerShell or command prompt.
    ```
