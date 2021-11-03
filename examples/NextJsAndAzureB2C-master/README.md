@@ -1,5 +1,11 @@
 # NextJsAndAzureB2C
 
+| | |
+|--|--|
+| **Framework** | JavaScript Rendering SDK (Next.js) |
+| **Sitecore Version** | 10.1 |
+| **Author** | Sitecore |
+
 This is a modifed version of the OOB starter template for NextJS which includes an example of how to use Azure B2C and next-auth together.
 
 You can clone this repo and run it, alternatively here is a log of the changes from standard and some steps on how to test the solution.
