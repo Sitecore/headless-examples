@@ -81,17 +81,17 @@ Once complete, the startup script will open browser tabs for [Sitecore Launchpad
 
 The rendered site is the out-of-the-box `/sitecore/content/Home` item modified to include the `EmbeddedWizard.ascx` Sublayout. You should see the JSS wizard app embedded in the Sitecore sample home.
 
-![Embedded Wizard app integrated](/assets/img/wizard-integrated.png)
+![Embedded Wizard app integrated](/examples/sitecore-embedded-jss-app/assets/img/wizard-integrated.png)
 
 > Note: this technique works equally well with Sitecore MVC. This example uses Web Forms only for easy compatibility with the default Sitecore site.
 
 You can also browse to https://cm.sitecore-embedded-jss-app.localhost/EmbeddedWizard/Wizard to see the app running independently in Integrated Mode.
 
-![Embedded Wizard app integrated](/assets/img/wizard_success.png)
+![Embedded Wizard app integrated](/examples/sitecore-embedded-jss-app/assets/img/wizard_success.png)
 
 You can open the Sitecore Content Editor and find the app installed at `/sitecore/content/Home/EmbeddedWizard`.
 
-![Embedded Wizard app deployed](/assets/img/wizard-app-deployed-items.png)
+![Embedded Wizard app deployed](/examples/sitecore-embedded-jss-app/assets/img/wizard-app-deployed-items.png)
 
 ### Stop Sitecore
 
