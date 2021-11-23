@@ -23,19 +23,20 @@ services:
       args:
         PARENT_IMAGE: ${SITECORE_DOCKER_REGISTRY}sitecore-redis:${SITECORE_VERSION}
 
-  # Mount our SQL data folder and use our custom image with the Headless Services (JSS)
-  # module data added. See Dockerfile for details.
+  # Mount our SQL data folder.
   mssql:
-    image: ${REGISTRY}${COMPOSE_PROJECT_NAME}-xm1-mssql:${VERSION:-latest}
-    build:
-      context: ./docker/build/mssql
-      args:
-        PARENT_IMAGE: ${SITECORE_DOCKER_REGISTRY}sitecore-xm1-mssql:${SITECORE_VERSION}
-        HEADLESS_SERVICES_IMAGE: ${HEADLESS_SERVICES_IMAGE}
     volumes:
-      - type: bind
-        source: .\docker\data\sql
-        target: c:\data
+      - .\docker\data\sql:c:\data
+
+  # Use our custom image with the Headless Services (JSS)
+  # module data added. See Dockerfile for details.
+  mssql-init:
+    image: ${REGISTRY}${COMPOSE_PROJECT_NAME}-mssql-init:${VERSION:-latest}
+    build:
+      context: ./docker/build/mssql-init
+      args:
+        PARENT_IMAGE: ${SITECORE_DOCKER_REGISTRY}sitecore-xm1-mssql-init:${SITECORE_VERSION}
+        HEADLESS_SERVICES_IMAGE: ${HEADLESS_SERVICES_IMAGE}
 
   # Mount our Solr data folder.
   solr:
@@ -59,7 +60,7 @@ services:
     build:
       context: ./docker/build/id
       args:
-        PARENT_IMAGE: ${SITECORE_DOCKER_REGISTRY}sitecore-id:${SITECORE_VERSION}
+        PARENT_IMAGE: ${SITECORE_DOCKER_REGISTRY}sitecore-id6:${SITECORE_VERSION}
     volumes:
       - ${HOST_LICENSE_FOLDER}:c:\license
     environment:
