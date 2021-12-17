@@ -1,0 +1,55 @@
+﻿---
+ID: "7dfa7e84-c3dc-54c0-a030-26089ca6cc8e"
+Parent: "1861a88b-b717-5cb5-803a-61228be85751"
+Template: "a4e74744-11a1-5f86-b241-ef2a7ab21166"
+Path: "/sitecore/content/site-one/home/styleguide/Page Components/styleguide-jss-styleguide-section-B73482E131E5A083D77A50554BC74A4758E29636DF6824F6E2F272EE778C28A095"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{6C59AE29-D0A1-4B77-9305-0ABAB21D5FE5}"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Styleguide-FieldUsage-ItemLink-10"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "0844d7ff-4d77-5fee-9c4f-c41f83f020ca"
+      Hint: localItemLink
+      Value: "{18ADB940-B40D-5269-A282-0BAF44B1517C}"
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211217T033826Z
+    - ID: "2a136b29-38af-5f5e-92d6-365f3cad716c"
+      Hint: sharedItemLink
+      Value: "{6EE6204B-2273-58A8-A931-61737E6D1416}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FCFDBB96-946A-4D2F-BCCD-5573073FC176}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5a8cc980-6e33-4f08-b717-23c48189ab48"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JssImport
+    - ID: "c45e316b-a64d-5015-8da0-e3b18a8e0123"
+      Hint: heading
+      Value: Item Link
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211217T033826Z
+    - ID: "ffa960db-d783-565a-b159-00f0ba1a6a07"
+      Hint: description
+      Value: |
+        <p>
+          <small>
+            Item Links are a way to reference another content item to use data from it.
+            Referenced items may be shared.
+            To reference multiple content items, use a <em>Content List</em> field.<br />
+            <strong>Note:</strong> Sitecore does not support inline editing of Item Link fields. The value must be edited in Experience Editor by using the edit rendering fields button (looks like a pencil) with the whole component selected.
+          </small>
+        </p>
+        

@@ -1,0 +1,32 @@
+{
+    "namespace": "SiteOne",
+    "references": [ "InitItems" ],
+    "items": {
+        "includes": [
+            {
+                "name": "layouts-one",
+                "path": "/sitecore/layout/Layouts/Project/site-one"
+            },
+            {
+                "name": "placeholders-one",
+                "path": "/sitecore/layout/Placeholder Settings/Project/site-one"
+            },
+            {
+                "name": "renderings-one",
+                "path": "/sitecore/layout/Renderings/Project/site-one"
+            },
+            {
+                "name": "templates-one",
+                "path": "/sitecore/templates/Project/site-one"
+            },
+            {
+                "name": "content-one",
+                "path": "/sitecore/content/site-one"
+            },
+            {
+                "name": "media-one",
+                "path": "/sitecore/media library/site-one"
+            }
+        ]
+    }
+}

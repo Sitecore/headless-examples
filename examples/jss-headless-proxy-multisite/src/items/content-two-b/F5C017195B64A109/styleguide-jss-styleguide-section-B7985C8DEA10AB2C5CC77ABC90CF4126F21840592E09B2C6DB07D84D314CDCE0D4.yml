@@ -1,0 +1,59 @@
+﻿---
+ID: "ab9558ae-79af-5802-87a7-f70d693e3b73"
+Parent: "d854785b-f98c-50f2-aa02-a735bf7a62e4"
+Template: "dfb9f2b2-6350-515f-bcc8-3e988a83beed"
+Path: "/sitecore/content/site-two-b/home/styleguide/Page Components/styleguide-jss-styleguide-section-B7985C8DEA10AB2C5CC77ABC90CF4126F21840592E09B2C6DB07D84D314CDCE0D4"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{6C59AE29-D0A1-4B77-9305-0ABAB21D5FE5}"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Styleguide-FieldUsage-ContentList-11"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "05f9d7bd-f60a-5c73-be01-f3b917eb1be8"
+      Hint: heading
+      Value: Content List
+    - ID: "0a733816-c124-5c42-86ec-db8bb30136a7"
+      Hint: localContentList
+      Value: |
+        {539EDDD6-FE04-51D2-A412-0CC352A753B4}
+        {9A872599-A507-5DF5-8E16-559345E6D349}
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211217T034522Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FCFDBB96-946A-4D2F-BCCD-5573073FC176}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1d8cd8d3-d8c0-4df2-be0a-ba4bccbc57ca"
+    - ID: "ae8b869a-33b7-5e30-8258-c0716ebf1145"
+      Hint: description
+      Value: |
+        <p>
+          <small>
+            Content Lists are a way to reference zero or more other content items.
+            Referenced items may be shared.
+            To reference a single content item, use an <em>Item Link</em> field.<br />
+            <strong>Note:</strong> Sitecore does not support inline editing of Content List fields. The value must be edited in Experience Editor by using the edit rendering fields button (looks like a pencil) with the whole component selected.
+          </small>
+        </p>
+        
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JssImport
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211217T034522Z
+    - ID: "f5fff59d-a9a5-5005-8251-1b1065426f06"
+      Hint: sharedContentList
+      Value: |
+        {5F098989-B1F2-5A0C-B488-245B88A5912A}
+        {8793477E-BBCA-5978-BBF8-EA9B8CC8D809}

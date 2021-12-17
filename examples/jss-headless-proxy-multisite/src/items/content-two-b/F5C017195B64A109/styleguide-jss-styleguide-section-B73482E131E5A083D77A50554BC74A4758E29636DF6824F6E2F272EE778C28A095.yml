@@ -1,0 +1,55 @@
+﻿---
+ID: "f5e7456c-d620-5cb9-8808-51e31c3409db"
+Parent: "d854785b-f98c-50f2-aa02-a735bf7a62e4"
+Template: "c3ff9a7c-472e-54cd-a78f-30abff25a855"
+Path: "/sitecore/content/site-two-b/home/styleguide/Page Components/styleguide-jss-styleguide-section-B73482E131E5A083D77A50554BC74A4758E29636DF6824F6E2F272EE778C28A095"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{6C59AE29-D0A1-4B77-9305-0ABAB21D5FE5}"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Styleguide-FieldUsage-ItemLink-10"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "05f9d7bd-f60a-5c73-be01-f3b917eb1be8"
+      Hint: heading
+      Value: Item Link
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211217T034522Z
+    - ID: "3b8140ae-5a5c-5a25-a876-475f225a296d"
+      Hint: localItemLink
+      Value: "{7F3655D6-B064-5367-B27A-15833A6E630A}"
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FCFDBB96-946A-4D2F-BCCD-5573073FC176}"
+    - ID: "6cfa2826-22c0-5d36-a7d1-2214d7d558ea"
+      Hint: sharedItemLink
+      Value: "{0EC76632-C082-5D70-9ADD-7C1368C159AE}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "5d51f0a3-94e5-4a2f-b488-96d1892c6923"
+    - ID: "ae8b869a-33b7-5e30-8258-c0716ebf1145"
+      Hint: description
+      Value: |
+        <p>
+          <small>
+            Item Links are a way to reference another content item to use data from it.
+            Referenced items may be shared.
+            To reference multiple content items, use a <em>Content List</em> field.<br />
+            <strong>Note:</strong> Sitecore does not support inline editing of Item Link fields. The value must be edited in Experience Editor by using the edit rendering fields button (looks like a pencil) with the whole component selected.
+          </small>
+        </p>
+        
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JssImport
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211217T034522Z

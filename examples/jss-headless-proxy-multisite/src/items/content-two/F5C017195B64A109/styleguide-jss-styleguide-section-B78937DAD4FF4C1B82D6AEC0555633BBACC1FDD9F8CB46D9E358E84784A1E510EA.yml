@@ -1,0 +1,45 @@
+﻿---
+ID: "a8589b43-cee7-5c9e-94a8-c2f6d21c7c02"
+Parent: "03a20fb9-fead-5706-a625-97fb5052c654"
+Template: "932fc92c-ac8c-51e6-a853-3eb8490c65a5"
+Path: "/sitecore/content/site-two/home/styleguide/Page Components/styleguide-jss-styleguide-section-B78937DAD4FF4C1B82D6AEC0555633BBACC1FDD9F8CB46D9E358E84784A1E510EA"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{6C59AE29-D0A1-4B77-9305-0ABAB21D5FE5}"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Styleguide-FieldUsage-Image-4"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211217T034029Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FCFDBB96-946A-4D2F-BCCD-5573073FC176}"
+    - ID: "5e893c35-4fc2-5538-a606-36cf3560dde0"
+      Hint: sample1
+      Value: |
+        <image alt="Sitecore Logo" mediaid="{6DB41D0A-4DEB-52C7-A67D-5DE95AD3B534}" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0c859a6d-1a1c-49b2-862e-f7b62bd51683"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JssImport
+    - ID: "c5aeb543-6034-5846-a245-7c5b39e38df0"
+      Hint: sample2
+      Value: |
+        <image alt="Sitecore JSS Logo" mediaid="{181F7E3C-A0DF-5B4E-B6DF-4616A1617E53}" />
+    - ID: "d6faebb9-6b1b-53bc-bb1b-776bd978c377"
+      Hint: heading
+      Value: Image
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211217T034029Z

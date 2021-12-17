@@ -1,0 +1,56 @@
+﻿---
+ID: "dbd4991d-34e9-5f8d-8c76-c7b3c7857722"
+Parent: "d854785b-f98c-50f2-aa02-a735bf7a62e4"
+Template: "d45d62e1-d3f4-5a81-94bf-2d659a80e6f1"
+Path: "/sitecore/content/site-two-b/home/styleguide/Page Components/styleguide-jss-styleguide-section-B7FCF54E14D2DDEE96747EE3CC441EBE9A4FE9EE7D90F5ABCCDE076F5B72DBDA43"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{6C59AE29-D0A1-4B77-9305-0ABAB21D5FE5}"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Styleguide-FieldUsage-Link-9"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "05f9d7bd-f60a-5c73-be01-f3b917eb1be8"
+      Hint: heading
+      Value: General Link
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211217T034522Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FCFDBB96-946A-4D2F-BCCD-5573073FC176}"
+    - ID: "56fd1a68-ba78-5b3b-8fd5-1f7e9e8fd02b"
+      Hint: internalLink
+      Value: |
+        <link linktype="internal" id="{56668FF4-24CD-5CB0-8FCB-A3131F53D256}" />
+    - ID: "61c70c13-8036-56af-9a90-5777b7e32ca0"
+      Hint: externalLink
+      Value: |
+        <link text="Link to Sitecore" url="https://www.sitecore.com" linktype="external" />
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "81beaee3-f410-4ca1-a7ff-c89093eef674"
+    - ID: "ae8b869a-33b7-5e30-8258-c0716ebf1145"
+      Hint: description
+      Value: <p>A <em>General Link</em> is a field that represents an <code>&lt;a&gt;</code> tag.</p>
+    - ID: "b715dd46-fe4a-5e5d-acb3-cd540b262ec1"
+      Hint: paramsLink
+      Value: |
+        <link target="_blank" text="Sitecore Dev Site" title="&lt;a&gt; title attribute" url="https://dev.sitecore.net" class="font-weight-bold" linktype="external" />
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JssImport
+    - ID: "be58a632-c98e-5473-9573-b2ab46d899e0"
+      Hint: emailLink
+      Value: |
+        <link text="Send an Email" url="mailto:foo@bar.com" linktype="mailto" />
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211217T034522Z

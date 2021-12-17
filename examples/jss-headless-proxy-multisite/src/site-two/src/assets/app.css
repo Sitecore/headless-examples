@@ -1,0 +1,18 @@
+a[target='_blank']:after {
+  content: '\1F5D7'
+}
+
+/*
+  Hides Sitecore Experience Editor markup,
+  if you run the app in connected mode while the Sitecore cookies
+  are set to edit mode.
+*/
+.scChromeData, .scpm { display: none !important; }
+
+/**
+ * MULTISITE-UPDATE
+ * Change this app's background color so we can distinguish it. (for demo only)
+ */
+body {
+  background-color: lightgray;
+}

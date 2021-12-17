@@ -1,0 +1,9 @@
+{
+  "sitecore": {
+    "instancePath": "..\\..\\docker\\deploy\\platform\\",
+    "apiKey": "F516BCB0-D0CE-461F-B9C1-EC6D44EAAFF3",
+    "deploySecret": "gsuncuk94iabl0fzrc99mhswa7lddjise3sygv6bpql",
+    "deployUrl": "https://cm.jssheadlessproxymultisite.localhost/sitecore/api/jss/import",
+    "layoutServiceHost": "https://cm.jssheadlessproxymultisite.localhost"
+  }
+}

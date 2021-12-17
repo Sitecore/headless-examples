@@ -1,0 +1,32 @@
+{
+    "namespace": "SiteTwoB",
+    "references": [ "InitItems" ],
+    "items": {
+        "includes": [
+            {
+                "name": "layouts-two-b",
+                "path": "/sitecore/layout/Layouts/Project/site-two-b"
+            },
+            {
+                "name": "placeholders-two-b",
+                "path": "/sitecore/layout/Placeholder Settings/Project/site-two-b"
+            },
+            {
+                "name": "renderings-two-b",
+                "path": "/sitecore/layout/Renderings/Project/site-two-b"
+            },
+            {
+                "name": "templates-two-b",
+                "path": "/sitecore/templates/Project/site-two-b"
+            },
+            {
+                "name": "content-two-b",
+                "path": "/sitecore/content/site-two-b"
+            },
+            {
+                "name": "media-two-b",
+                "path": "/sitecore/media library/site-two-b"
+            }
+        ]
+    }
+}
