@@ -1,0 +1,58 @@
+﻿---
+ID: "9d07f400-7f6a-5cb8-8703-d576a90317b2"
+Parent: "781589ed-4ef5-5b48-be34-24313ee1b6de"
+Template: "4bdc89a9-b3ea-5186-8b0e-940e509afbb1"
+Path: "/sitecore/content/site-one/home/styleguide/custom-route-type"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{6C59AE29-D0A1-4B77-9305-0ABAB21D5FE5}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{621128A6-CC4D-5287-8ED6-E4A89A7DBBDB}"
+              p:after="*[1=2]"
+              s:rname="Styleguide-CustomRouteType"
+              s:id="{2BDB29BA-F013-5390-947B-4F151A7655C0}"
+              s:par=""
+              s:ph="/jss-main" />
+          </d>
+        </r>
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211217T033828Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FCFDBB96-946A-4D2F-BCCD-5573073FC176}"
+    - ID: "79b51bdd-0175-5dd3-b40a-ff24cee94301"
+      Hint: author
+      Value: Myrtle
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "f6398e24-25bb-4311-820f-65945c6d5349"
+    - ID: "a5c8edc4-bff5-5588-af4e-1a1ef0528012"
+      Hint: pageTitle
+      Value: Custom Route Type | Sitecore JSS
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JssImport
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211217T033828Z
+    - ID: "db6f63a2-622e-53ea-b83a-1d245a64a0e1"
+      Hint: headline
+      Value: "A Treatise on Route-Level Fields in JSS"
+    - ID: "f82de350-7304-5b5e-aa6f-81360ee4e54f"
+      Hint: content
+      Value: "<p>Custom route type fields are good for things like articles, where you may wish to have a filter UI on content fields, such as author or category. Route level fields are easy to query against, whereas component-level fields are not because it's possible to remove a component from a route. Note that route level fields <em>cannot be personalized</em> because you cannot conditionally swap out the route item for a different content item.</p>"

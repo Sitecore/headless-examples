@@ -1,0 +1,73 @@
+﻿---
+ID: "1e842757-4732-53df-8650-52b21b8d62cc"
+Parent: "56668ff4-24cd-5cb0-8fcb-a3131f53d256"
+Template: "308525a1-92fd-56e6-a906-a00bae6a0cd8"
+Path: "/sitecore/content/site-two-b/home/graphql"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{6C59AE29-D0A1-4B77-9305-0ABAB21D5FE5}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "04bf00db-f5fb-41f7-8ab7-22408372a981"
+      Hint: __Final Renderings
+      Value: |
+        <r xmlns:p="p" xmlns:s="s"
+          p:p="1">
+          <d
+            id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}">
+            <r
+              uid="{FB82986A-A6CD-53FD-AA1D-BC5036B6979B}"
+              p:after="p[@uid='{F8A124FA-9CCF-5859-819A-6F244FE3BAB7}']"
+              s:rname="ContentBlock"
+              s:ds="{76B05041-D5F6-5A4C-A155-2CC37B478EA4}"
+              s:id="{E1E9F1EF-EE38-55AD-BF1B-EEC62E800B28}"
+              s:par=""
+              s:ph="/jss-main" />
+            <r
+              uid="{A9FBC7CC-F00B-58A2-873B-4C70C726476C}"
+              p:after="r[@uid='{FB82986A-A6CD-53FD-AA1D-BC5036B6979B}']"
+              s:rname="GraphQL-Layout"
+              s:id="{BE12C4C0-7044-5885-8D09-192827054674}"
+              s:par=""
+              s:ph="/jss-main" />
+            <r
+              uid="{B6BBD1E2-C0B2-5C34-ADD3-858333393BFD}"
+              p:after="r[@uid='{A9FBC7CC-F00B-58A2-873B-4C70C726476C}']"
+              s:rname="GraphQL-IntegratedDemo"
+              s:ds="{9D49394D-AC00-577A-A851-B535EEE7CE56}"
+              s:id="{AB96C64B-231A-500E-9658-7A1B5F3784BA}"
+              s:par=""
+              s:ph="/jss-main/jss-graphql-layout-{A9FBC7CC-F00B-58A2-873B-4C70C726476C}-0" />
+            <r
+              uid="{4E86EC75-DCF5-57A7-B43C-150ADD6BD099}"
+              p:after="*[1=2]"
+              s:rname="GraphQL-ConnectedDemo"
+              s:ds="{4B514D7E-1E9E-526A-ADEC-BF7499271D66}"
+              s:id="{4894CFC4-E508-5F68-9BF1-DA778965C70A}"
+              s:par=""
+              s:ph="/jss-main/jss-graphql-layout-{A9FBC7CC-F00B-58A2-873B-4C70C726476C}-0" />
+          </d>
+        </r>
+    - ID: "23446233-83dc-5967-bfe5-d2c223dda28c"
+      Hint: pageTitle
+      Value: GraphQL | Sitecore JSS
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211217T034519Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FCFDBB96-946A-4D2F-BCCD-5573073FC176}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "232baaaf-79cf-493a-8c51-f486515dc28e"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JssImport
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211217T034520Z

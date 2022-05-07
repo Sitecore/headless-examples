@@ -27,3 +27,4 @@ We most definitely welcome new examples!
 
 * [Embedded JSS App](examples/sitecore-embedded-jss-app) ([@Sitecore/jss](https://github.com/orgs/Sitecore/teams/jss))
 * [Federated Auth - Next.js](examples/nextjs-federated-auth) ([@websterian](https://github.com/websterian))
+* [JSS Headless Proxy Multisite](examples/jss-headless-proxy-multisite) ([@Sitecore/jss](https://github.com/orgs/Sitecore/teams/jss))

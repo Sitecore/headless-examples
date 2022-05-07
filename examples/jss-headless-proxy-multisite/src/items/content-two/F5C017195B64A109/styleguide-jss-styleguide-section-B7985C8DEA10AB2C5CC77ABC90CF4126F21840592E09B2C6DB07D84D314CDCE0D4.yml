@@ -1,0 +1,59 @@
+﻿---
+ID: "0d626bfb-8a14-5e62-8607-18b1c18a8955"
+Parent: "03a20fb9-fead-5706-a625-97fb5052c654"
+Template: "867c98f9-2c4a-5c52-a67f-adef5da4dc15"
+Path: "/sitecore/content/site-two/home/styleguide/Page Components/styleguide-jss-styleguide-section-B7985C8DEA10AB2C5CC77ABC90CF4126F21840592E09B2C6DB07D84D314CDCE0D4"
+SharedFields:
+- ID: "a4f985d9-98b3-4b52-aaaf-4344f6e747c6"
+  Hint: __Workflow
+  Value: "{6C59AE29-D0A1-4B77-9305-0ABAB21D5FE5}"
+Languages:
+- Language: en
+  Fields:
+  - ID: "b5e02ad9-d56f-4c41-a065-a133db87bdeb"
+    Hint: __Display name
+    Value: "Styleguide-FieldUsage-ContentList-11"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "17448079-0fd9-5193-bf7d-2cd5c1c65cd5"
+      Hint: sharedContentList
+      Value: |
+        {4D7D42DC-2814-5F4B-8ACE-005C4CC37B70}
+        {59416103-F18B-5807-B642-FBEEF0D3E9DF}
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211217T034030Z
+    - ID: "3e431de1-525e-47a3-b6b0-1ccbec3a8c98"
+      Hint: __Workflow state
+      Value: "{FCFDBB96-946A-4D2F-BCCD-5573073FC176}"
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "1d6d4d74-c63e-4885-8855-fea1f8e0e05a"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JssImport
+    - ID: "d6faebb9-6b1b-53bc-bb1b-776bd978c377"
+      Hint: heading
+      Value: Content List
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211217T034030Z
+    - ID: "e66247c8-9572-58ff-8807-d4a4cd8c2e07"
+      Hint: description
+      Value: |
+        <p>
+          <small>
+            Content Lists are a way to reference zero or more other content items.
+            Referenced items may be shared.
+            To reference a single content item, use an <em>Item Link</em> field.<br />
+            <strong>Note:</strong> Sitecore does not support inline editing of Content List fields. The value must be edited in Experience Editor by using the edit rendering fields button (looks like a pencil) with the whole component selected.
+          </small>
+        </p>
+        
+    - ID: "ffee3358-4018-5dab-889a-bfa054128c48"
+      Hint: localContentList
+      Value: |
+        {31F72A0B-6369-5F4E-B903-B97EBB00FC4E}
+        {5BFF6CF4-8281-5CA5-965F-7CDDDB39E48E}

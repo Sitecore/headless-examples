@@ -1,0 +1,59 @@
+﻿---
+ID: "f3d9f950-97e1-528f-b2d5-2883e3a58e31"
+Parent: "ee3a895f-9c99-5f8c-8ca3-dcd63d0beb60"
+Template: "5c547d4e-7111-4995-95b0-6b561751bf2e"
+Path: "/sitecore/layout/Placeholder Settings/Project/site-two-b/jss-styleguide-section"
+SharedFields:
+- ID: "7256bdab-1fd2-49dd-b205-cb4873d2917c"
+  Hint: Placeholder Key
+  Value: "jss-styleguide-section"
+- ID: "9c6106ea-7a5a-48e2-8cad-f0f693b1e2d4"
+  Hint: __Read Only
+  Value: 1
+- ID: "e391b526-d0c5-439d-803e-17512eae6222"
+  Hint: Allowed Controls
+  Value: |
+    {33F62C65-A00D-55EF-9BD2-AB5E2FB73465}
+    {7EC0C93D-FE0D-5A63-8D8F-72DF6D58469F}
+    {5DC8EA78-D4A3-5A8F-B97B-C12A0587F16C}
+    {DD3ED0CD-E98A-57E3-AC22-E378981A3B22}
+    {609F9B86-468E-55AE-B565-6B2EF2876626}
+    {3CC21CB3-F6B3-53FE-8F3F-AEA55992A136}
+    {E105C4B7-5488-50D6-888A-11E5D9D216C3}
+    {88C7CDDE-B5B1-5F8E-93EC-5DA9E4344C69}
+    {74528BF0-ACBE-567F-A965-207EBE3A5E6A}
+    {46C8D3D3-6A0A-531D-9517-3ECD3F384116}
+    {0A6236DE-F3B3-571E-8599-FD1B8FE04D96}
+    {6484C5CD-F176-597D-9D0D-030E035B742E}
+    {2276EE5D-9796-5F48-B48C-EDFE2C5335B8}
+    {02D54596-14C4-521E-A173-68A06D0C46E2}
+    {4197BD11-E2DA-507D-9970-37B28526600D}
+    {D818A25F-B1CF-5913-9917-D1806C77E0F6}
+    {97F67767-8958-5AA0-BFED-C58D9FC8C89F}
+    {631203B5-9D6D-5D16-9450-1E2AF48773B6}
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20211217T034513Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\JssImport
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\JssImport
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "eac9e704-dda0-40ba-ab2c-7167ed8066d3"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\JssImport
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20211217T034525Z
