@@ -10,10 +10,11 @@ services:
       args:
         PARENT_IMAGE: ${NODEJS_PARENT_IMAGE}
         NODEJS_VERSION: ${NODEJS_VERSION}
-    scale: 0
+    deploy:
+      replicas: 0
 
   # The solution build image is added here so it can be referenced as a build dependency
-  # for the images which use its output. Setting "scale: 0" means docker-compose will not
+  # for the images which use its output. Setting "replicas: 0" means docker compose will not
   # include it in the running environment. See Dockerfile for more details.
   solution:
     image: ${REGISTRY}${COMPOSE_PROJECT_NAME}-solution:${VERSION:-latest}
@@ -24,7 +25,8 @@ services:
         BUILD_IMAGE: mcr.microsoft.com/dotnet/framework/sdk:4.8-windowsservercore-ltsc2019
         NODEJS_IMAGE: ${REGISTRY}${COMPOSE_PROJECT_NAME}-nodejs:${VERSION:-latest}
         REACT_APP_IS_PROXY: "true"
-    scale: 0
+    deploy:
+      replicas: 0
 
   jss:
     image: ${REGISTRY}${COMPOSE_PROJECT_NAME}-jss:${VERSION:-latest}
@@ -132,10 +134,12 @@ services:
       ## Development Environment Optimizations
       SITECORE_DEVELOPMENT_PATCHES: DevEnvOn,CustomErrorsOff,HttpErrorsDetailed,DebugOn,DiagnosticsOff,InitMessagesOff,RobotDetectionOff
       Sitecore_AppSettings_exmEnabled:define: "no" # remove to turn on EXM
-    entrypoint: powershell.exe -Command "& C:\tools\entrypoints\iis\Development.ps1"
+    entrypoint: powershell.exe -Command "& C:\\tools\\entrypoints\\iis\\Development.ps1"
 
   cd:
-    scale: 0
+    deploy:
+      replicas: 0
 
   redis:
-    scale: 0
+    deploy:
+      replicas: 0
