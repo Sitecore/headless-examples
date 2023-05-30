@@ -9,6 +9,11 @@
 ## Description
 This example shows how to use virtual hosting with the express [vhost](http://expressjs.com/en/resources/middleware/vhost.html) middleware to support multiple JSS sites in the same Headless Proxy instance. It demonstrates sitse can use different application bundles, and sharing a bundle.
 
+### Prerequisites
+* NodeJs 14.x
+* .NET Core 3.1 SDK
+* Docker for Windows, with Windows Containers enabled and Compose V2 support
+
 ## Approach
 * Adds `vhost` to the Headless Proxy.
 * Makes the Headless Proxy configuration dynamic.

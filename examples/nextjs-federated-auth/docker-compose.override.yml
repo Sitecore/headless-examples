@@ -1,5 +1,5 @@
 #
-# The docker-compose.yml in this solution is a stock Sitecore XP0 environment, without
+# The docker compose.yml in this solution is a stock Sitecore XP0 environment, without
 # any changes. This override represents all the additions/changes needed for this solution.
 # Note that some of the overrides point to 'empty' Dockerfiles. This is recommended, even if
 # you are not customizing an image, to enable retagging and later customization. See Sitecore
@@ -18,10 +18,11 @@ services:
       args:
         PARENT_IMAGE: ${NODEJS_PARENT_IMAGE}
         NODEJS_VERSION: ${NODEJS_VERSION}
-    scale: 0
+    deploy:
+      replicas: 0
 
   # The solution build image is added here so it can be referenced as a build dependency
-  # for the images which use its output. Setting "scale: 0" means docker-compose will not
+  # for the images which use its output. Setting "replicas: 0" means docker compose will not
   # include it in the running environment. See Dockerfile for more details.
   solution:
     image: ${REGISTRY}${COMPOSE_PROJECT_NAME}-solution:${VERSION:-latest}
@@ -30,7 +31,8 @@ services:
       args:
         BUILD_CONFIGURATION: ${BUILD_CONFIGURATION}
         BUILD_IMAGE: mcr.microsoft.com/dotnet/framework/sdk:4.8
-    scale: 0
+    deploy:
+      replicas: 0
 
   rendering:
     image: ${REGISTRY}${COMPOSE_PROJECT_NAME}-rendering:${VERSION:-latest}
@@ -131,7 +133,7 @@ services:
       ## Development Environment Optimizations
       SITECORE_DEVELOPMENT_PATCHES: DevEnvOn,CustomErrorsOff,DebugOn,DiagnosticsOff,InitMessagesOff,RobotDetectionOff
       Sitecore_AppSettings_exmEnabled:define: "no" # remove to turn on EXM
-    entrypoint: powershell.exe -Command "& C:\tools\entrypoints\iis\Development.ps1"
+    entrypoint: powershell.exe -Command "& C:\\tools\\entrypoints\\iis\\Development.ps1"
 
   # Use our retagged XConnect image.
   # Configure for a mounted license folder instead of using SITECORE_LICENSE.

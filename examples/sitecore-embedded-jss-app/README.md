@@ -39,7 +39,7 @@ You can view a quick [demo video of the sample here](https://content.jwplatform.
 ### Prerequisites
 * NodeJs 14.x
 * .NET Core 3.1 SDK
-* Docker for Windows, with Windows Containers enabled
+* Docker for Windows, with Windows Containers enabled and Compose V2 support
 
 See Sitecore Containers documentation for more information on system requirements.
 
@@ -98,7 +98,7 @@ You can open the Sitecore Content Editor and find the app installed at `/sitecor
 When you're done, stop and remove the containers using the following command.
 
 ```
-docker-compose down
+docker compose down
 ```
 
 ## How it Works
