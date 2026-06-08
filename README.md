@@ -7,7 +7,7 @@ It should not be used for new implementations and may contain outdated patterns,
 There is **no direct replacement** for this repository.
 
 The final state of the repository is available for archival/reference purposes here:  
-👉 [Headless Examples (Deprecation Branch)](https://github.com/Chris1415/headless-examples/tree/Deprecation)
+👉 [Headless Examples (Deprecation Branch)](https://github.com/Sitecore/headless-examples)
 
 ---
 
