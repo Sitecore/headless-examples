@@ -81,12 +81,12 @@ defined in Sitecore's [scope of support](https://kb.sitecore.net/articles/463549
 * .NET Core 3.1 SDK
 * .NET Framework 4.8 SDK
 * Visual Studio 2019
-* Docker for Windows, with Windows Containers enabled
+* Docker for Windows, with Windows Containers enabled and Compose V2 support
 
 See Sitecore Containers documentation for more information on system requirements.
 
 ## What's Included
-* A `docker-compose` environment for a Sitecore XP0 topology
+* A `docker compose` environment for a Sitecore XP0 topology
   with a Next.js rendering host.
 
   > The included `docker-compose.yml` is a stock XP0 environment from the Sitecore
